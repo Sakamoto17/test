@@ -44,7 +44,7 @@ public class Sample12_19 {
 		ArrayList<Integer> intArray2 = (ArrayList<Integer>)(array.stream())
 																  .filter(num -> num % 2 == 1)
 																  .filter(num -> num <= 1000)
-																  .collect(Collectors.toList());
+																  .collect(Collectors.toList());       
 
 		System.out.println("intArray2: " + intArray2);
 
